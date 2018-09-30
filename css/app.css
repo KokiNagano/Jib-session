@@ -1,0 +1,163 @@
+
+.card-user-container {
+  margin-bottom: 1rem;
+  background-color: #fefefe;
+  color: #0a0a0a;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 0;
+  border: solid 1px #cacaca;
+}
+
+.card-user-container .card-user-avatar .user-image {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 11.875rem;
+  height: 11.875rem;
+  padding: 0.9375rem;
+}
+
+.card-user-container .card-user-avatar .user-image:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-user-container .card-user-bio {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-user-container .card-user-bio .location {
+  display: inline-block;
+  margin: 0 0.9375rem;
+  color: #767676;
+  font-size: 0.875rem;
+}
+
+.card-user-container .card-user-bio .location-icon,
+.card-user-container .card-user-bio .location-text {
+  display: inline-block;
+  padding: 0 0.3125rem;
+}
+
+.card-user-container .card-user-social {
+  background: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-user-container .card-user-social ul {
+  display: inline-block;
+}
+
+.card-user-container .card-user-social ul li {
+  margin: 0 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.card-user-container .card-user-social ul li:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-user-container .card-user-button {
+  text-align: center;
+  padding: 1rem;
+}
+
+.callout{
+  padding: 0.3rem;
+}
+
+.left-gage{
+  width: 70%;
+  float: left;
+  background-color: #79D1B0;
+}
+
+.right-gage{
+  width: 30%;
+  float: right;
+  background-color: #FDC44F;
+}
+
+.give{
+  padding: 0.3rem 0;
+}
+
+.give p {
+  text-align: center;
+}
+
+.take p {
+  text-align: center;
+}
+
+.take{
+  padding: 0.3rem 0;
+}
+
+.card-user-goal{
+  padding: 1rem;
+}
+
+.okr{
+  font-weight: bold;
+}
+
+.section-title{
+  margin: 4rem auto;
+}
+
+
+.featured-testimonials-section {
+}
+
+.featured-testimonials-container .orbit-previous {
+  color: #0a0a0a;
+  left: -1rem;
+}
+
+.featured-testimonials-container .orbit-next {
+  color: #0a0a0a;
+  right: -1rem;
+}
+
+.testimonial {
+/*  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+*/  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 0.5px #cacaca;
+  margin-bottom: 1rem;
+}
+
+.profile-pic {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.featured-testimonials-quotation {
+  margin-bottom: 0rem;
+  padding: 1rem;
+  position: relative;
+}
+
+
+@media screen and (max-width: 39.9375em) {
+  .featured-testimonials-quotation {
+    margin-left: 0;
+  }
+}
+
+.resource{
+  text-align: center;
+  margin:0 auto 1rem;
+  font-size: 2rem;
+}
